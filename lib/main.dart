@@ -20,6 +20,7 @@ late Map? token = {};
 
 
 void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   _firebaseMessaging.subscribeToTopic('allUsers');
   await FirebaseApi.initNotifications();
