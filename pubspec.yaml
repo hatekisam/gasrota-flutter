@@ -51,6 +51,10 @@ dependencies:
   firebase_dynamic_links: ^5.4.0
   firebase_messaging: ^14.7.0
   algolia: ^1.1.2
+  firebase_core: ^2.18.0
+  flutter_local_notifications: ^16.1.0
+  google_sign_in: ^6.1.5
+  sign_in_with_apple: ^5.0.0
 
 dev_dependencies:
   flutter_test:
